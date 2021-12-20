@@ -14,9 +14,9 @@ var player_right;
 var player_left;
 function onYouTubeIframeAPIReady() {
     player_right = new YT.Player('right', {                    // changes for right player below
-        videoId: 'hTaquqTGNn8',                                // add video ID here, inside quotes
+        videoId: 'WwGYDA8RYZc',                                // add video ID here, inside quotes
         playerVars: {
-        'playlist': 'hTaquqTGNn8',                             // add video ID here, inside quotes
+        'playlist': 'WwGYDA8RYZc',                             // add video ID here, inside quotes
         // 'listType': 'playlist',
         // 'list': 'PLPU7kGzQQRdusaJzu4vaMyKqUG2Neo49E',
         'enablejsapi': 1,
@@ -32,9 +32,9 @@ function onYouTubeIframeAPIReady() {
     });
 
     player_left = new YT.Player('left', {                   // changes for left player below
-        videoId: 'u6J20_Aem3Y',                             // add video ID here, inside quotes
+        videoId: 'rxL9zFWqYA4',                             // add video ID here, inside quotes
         playerVars: {
-        'playlist': 'u6J20_Aem3Y',                          // add video ID here, inside quotes
+        'playlist': 'rxL9zFWqYA4',                          // add video ID here, inside quotes
         // 'listType': 'playlist',
         // 'list': 'PLPU7kGzQQRdtl4Mhcr5ghAbhq5yVIePtR',
         'enablejsapi': 1,
