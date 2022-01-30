@@ -1,5 +1,6 @@
 let rightVid = document.getElementById("right");
 let leftVid = document.getElementById("left");
+const tvs = document.getElementsByClassName('tv')
 
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
@@ -79,12 +80,17 @@ window.addEventListener("keydown", function(event){
         player_right.pauseVideo();
         document.getElementById("right").style.border = '15px solid rgb(241, 89, 89)';
         document.getElementById("left").style.border = '15px solid greenyellow';
+        tvs[0].style.width = "80%"
+        tvs[1].style.width = "15%"
+
     } 
     else if (event.code == "KeyR") {
         player_right.playVideo();
         player_left.pauseVideo();
         document.getElementById("right").style.border = '15px solid greenyellow';
         document.getElementById("left").style.border = '15px solid rgb(241, 89, 89)';
+        tvs[0].style.width = "15%"
+        tvs[1].style.width = "80%"
     }
 
     event.preventDefault();
